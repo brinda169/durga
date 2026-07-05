@@ -1,0 +1,38 @@
+.footer {
+  background: #020617;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #cbd5e1;
+}
+
+.footer-icons {
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 28px;
+  transition: 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #38bdf8;
+  transform: translateY(-5px);
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}

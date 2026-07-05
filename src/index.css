@@ -1,0 +1,60 @@
+@import "./assets/styles.css";
+
+body.dark{
+    background: linear-gradient(
+135deg,
+#0f172a,
+#1e3a8a,
+#2563eb
+);
+    color:white;
+    transition:.4s;
+}
+
+body.light{
+    background: white;
+    color:#111827;
+    transition:.4s;
+}
+
+.theme-btn{
+    background:none;
+    border:none;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+.card:hover{
+transform:translateY(-12px) scale(1.03);
+transition:.35s;
+}
+.section-title{
+    font-size:46px;
+    font-weight:700;
+    position:relative;
+    display:inline-block;
+    margin-bottom:50px;
+}
+
+.section-title::after{
+    content:"";
+    width:70px;
+    height:4px;
+    background:var(--primary);
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    border-radius:10px;
+}
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-track{
+background:var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb{
+background:var(--primary);
+border-radius:20px;
+}

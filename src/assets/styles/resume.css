@@ -1,0 +1,18 @@
+.resume {
+  padding: 100px 10%;
+  background: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.resume-preview {
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.resume-preview iframe {
+  border: none;
+}
