@@ -15,7 +15,7 @@ function Resume() {
       />
     </div>
 
-      <a href="/resume.png" download className="resume-btn">
+      <a href="/resume.png" download="resume.png" className="resume-btn">
         Download Resume
       </a>
     </section>
