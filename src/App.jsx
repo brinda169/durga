@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +9,6 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ScrollTop from "./components/ScrollTop";
 import Resume from "./components/Resume";
 
 function App() {
@@ -22,32 +22,15 @@ function App() {
   <>
 <Navbar/>
 
-<section id="home">
-  <Hero/>
-</section>
 
-<section id="about">
-  <About/>
-</section>
-
-<Resume/>
-
-<section id="skills">
-  <Skills/>
-</section>
-
-<section id="projects">
-  <Projects/>
-</section>
-
-<section id="contact">
-  <Contact/>
-</section>
-
-<Footer/>
-
-<ScrollTop/>
-
+ <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
 </>);
 }

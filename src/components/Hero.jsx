@@ -30,10 +30,7 @@ function Hero() {
 
   <section id="home" className="hero">
 
-      <img
-        src="/profile.jpg"
-        alt="profile"
-      />
+      <img src="/profile.png" alt="Brinda" />
 
       <h1>Hello, I'm Brinda</h1>
 
@@ -43,9 +40,7 @@ function Hero() {
         Passionate about creating modern and responsive web applications.
       </p>
 
-      <a href="/resume.pdf" download>
-        Download Resume
-      </a>
+      
 
     </section>
 
@@ -71,13 +66,12 @@ function Hero() {
 
         <div className="hero-buttons">
            
-           <a href="/resume.png" download>
-            Download Resume
-            </a>
-
+          
+    
           <a href="#contact">
             Hire Me
           </a>
+    
         </div>
 
         <div className="social-icons">
@@ -109,7 +103,7 @@ function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <img src="/profile.png" alt="Brinda" />
+        
       </motion.div>
     </section>
   </>);

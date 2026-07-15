@@ -52,17 +52,17 @@ About Me
 
   <div>
     <h2>10+</h2>
-    <p>Projects</p>
+    <h1>Projects</h1>
   </div>
 
   <div>
     <h2>5+</h2>
-    <p>Certificates</p>
+    <h1>Certificates</h1>
   </div>
 
   <div>
     <h2>2+</h2>
-    <p>Years Learning</p>
+    <h1>Years Learning</h1>
   </div>
 
 </div>

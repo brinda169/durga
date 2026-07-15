@@ -7,14 +7,13 @@ function Resume() {
 
       <p>View or download my resume below.</p>
 
-      <div className="resume-preview">
-        <iframe
-          src="/resume.png"
-          title="Resume"
-          width="100%"
-          height="700"
-        />
-      </div>
+        <div className="resume-container">
+      <img
+        src="/resume.png"
+        alt="Resume"
+        className="resume-image"
+      />
+    </div>
 
       <a href="/resume.pdf" download className="resume-btn">
         Download Resume
