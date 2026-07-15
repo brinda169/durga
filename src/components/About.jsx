@@ -43,7 +43,7 @@ About Me
           </div>
         </div>
 
-        <a href="/resume.pdf" download className="resume-btn">
+        <a href="/resume.png" download className="resume-btn">
           Download Resume
         </a>
       </div>
