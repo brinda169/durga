@@ -12,5 +12,15 @@ export const projects = [
     technologies: ["React", "CSS", "JavaScript"],
     github: "https://github.com/brinda169/durga",
     demo: "https://durga-portfolio-nu.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Farmer Marketplace",
+    description:
+      "Helps farmers to sell their own products",
+    image: farm,
+    technologies: ["React", "mongoDB", "JavaScript"],
+    github: "https://github.com/brinda169/farmer-market-place",
+    demo: "https://farmer-market-place-opal.vercel.app/"
   }
 ];

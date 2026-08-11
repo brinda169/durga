@@ -10,12 +10,8 @@ title:"Portfolio Website",
 desc:"Personal portfolio built using React."
 },
 {
-title:"Weather App",
-desc:"Weather application using API."
-},
-{
-title:"Todo App",
-desc:"Task management application."
+title:"Farmer Marketplace",
+desc:"Helps farmer to sell their own products"
 }
 ];
 
