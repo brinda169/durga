@@ -10,7 +10,7 @@ export const projects = [
       "A responsive portfolio website built with React and CSS.",
     image: portfolio,
     technologies: ["React", "CSS", "JavaScript"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/brinda169/durga",
     demo: "https://durga-portfolio-nu.vercel.app/"
   }
 ];
