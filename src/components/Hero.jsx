@@ -76,7 +76,7 @@ function Hero() {
 
         <div className="social-icons">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/brinda169/durga"
             target="_blank"
             rel="noreferrer"
           >
@@ -84,14 +84,14 @@ function Hero() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/brinda169/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin />
           </a>
 
-          <a href="mailto:your@email.com">
+          <a href="mailto:brinda.d169@gmail.com">
             <FaEnvelope />
           </a>
         </div>
