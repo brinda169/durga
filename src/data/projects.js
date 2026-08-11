@@ -1,6 +1,5 @@
 import portfolio from "../assets/images/portfolio.png";
-import weather from "../assets/images/weather.png";
-import todo from "../assets/images/todo.png";
+import farm from "../assets/images/farm.png";
 
 export const projects = [
   {

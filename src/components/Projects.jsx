@@ -2,23 +2,12 @@ import "../assets/styles/projects.css";
 import { projects } from "../data/projects";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-function Projects(){
-
-const data=[
-{
-title:"Portfolio Website",
-desc:"Personal portfolio built using React."
-},
-{
-title:"Farmer Marketplace",
-desc:"Helps farmer to sell their own products"
-}
-];
-
-return(
-<>
- <section id="projects" className="projects-section">
-      <h2 data-aos="fade-up" className="section-title">My Projects</h2>
+function Projects() {
+  return (
+    <section id="projects" className="projects-section">
+      <h2 data-aos="fade-up" className="section-title">
+        My Projects
+      </h2>
 
       <div className="projects-grid">
         {projects.map((project) => (
@@ -62,9 +51,7 @@ return(
         ))}
       </div>
     </section>
-
-</>);
-
+  );
 }
 
 export default Projects;
