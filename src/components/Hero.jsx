@@ -76,7 +76,7 @@ function Hero() {
 
         <div className="social-icons">
           <a
-            href="https://github.com/brinda169/durga"
+            href="https://github.com/brinda169"
             target="_blank"
             rel="noreferrer"
           >
