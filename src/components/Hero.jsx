@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
+  FaInstagram,
 } from "react-icons/fa";
 import "../assets/styles/hero.css";
 
@@ -93,6 +94,14 @@ function Hero() {
 
           <a href="mailto:brinda.d169@gmail.com">
             <FaEnvelope />
+          </a>
+
+          <a
+            href="https://www.instagram.com/tech_by_brinda/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagram />
           </a>
         </div>
       </motion.div>

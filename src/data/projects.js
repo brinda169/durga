@@ -1,5 +1,6 @@
 import portfolio from "../assets/images/portfolio.png";
 import farm from "../assets/images/farm.png";
+import lost from "../assets/images/lost.png";
 
 export const projects = [
   {
@@ -21,5 +22,13 @@ export const projects = [
     technologies: ["React", "mongoDB", "JavaScript"],
     github: "https://github.com/brinda169/farmer-market-place",
     demo: "https://farmer-market-place-opal.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Lost & Found Management System",
+    description:"📍 One place. Every lost item. One chance to reunite.Building a smarter way to report, track, and recover lost belongings. 🔍🤝",
+    image: lost,
+    technologies: ["PHP", "HTML", "CSS","MySQL"],
+    demo:"localhost/lost-found/"
   }
 ];
