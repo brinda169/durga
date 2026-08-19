@@ -36,7 +36,7 @@ export const projects = [
     id: 4,
     title: "Online Quiz System",
     description:"Empowering education through interactive quizzes.",
-    image:MdQuiz,
+    image:quiz,
     technologies: ["PHP", "HTML", "CSS","MySQL"],
     demo:"localhost/online_quiz_system/"
   }
