@@ -1,6 +1,7 @@
 import portfolio from "../assets/images/portfolio.png";
 import farm from "../assets/images/farm.png";
 import lost from "../assets/images/lost.png";
+import quiz from "../assets/images/quiz.png";
 
 export const projects = [
   {
@@ -30,5 +31,13 @@ export const projects = [
     image: lost,
     technologies: ["PHP", "HTML", "CSS","MySQL"],
     demo:"localhost/lost-found/"
+  },
+  {
+    id: 4,
+    title: "Online Quiz System",
+    description:"Empowering education through interactive quizzes.",
+    image:MdQuiz,
+    technologies: ["PHP", "HTML", "CSS","MySQL"],
+    demo:"localhost/online_quiz_system/"
   }
 ];
