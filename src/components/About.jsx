@@ -7,7 +7,7 @@ function About() {
     <section id="about" className="about">
 
       <div className="about-image" data-aos="fade-right">
-        <img src="/profile.png" alt="Brinda" />
+        <img src="/brinda.png" alt="Brinda" />
       </div>
 
       <div className="about-content" data-aos="fade-left">
@@ -29,7 +29,7 @@ About Me
 
           <div>
             <h4>Email</h4>
-            <p>brinda.d169@email.com</p>
+            <p>brinda169d@email.com</p>
           </div>
 
           <div>
