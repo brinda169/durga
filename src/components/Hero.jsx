@@ -31,7 +31,7 @@ function Hero() {
 
   <section id="home" className="hero">
 
-      <img src="/profile.png" alt="Brinda" />
+      <img src="/brinda.png" alt="Brinda" />
 
       <h1>Hello, I'm Brinda</h1>
 
