@@ -1,5 +1,4 @@
 import portfolio from "../assets/images/portfolio.png";
-import farm from "../assets/images/farm.png";
 import lost from "../assets/images/lost.png";
 import quiz from "../assets/images/quiz.png";
 
@@ -16,16 +15,6 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Farmer Marketplace",
-    description:
-      "Helps farmers to sell their own products",
-    image: farm,
-    technologies: ["React", "mongoDB", "JavaScript"],
-    github: "https://github.com/brinda169/farmer-market-place",
-    demo: "https://farmer-market-place-opal.vercel.app/"
-  },
-  {
-    id: 3,
     title: "Lost & Found Management System",
     description:"📍 One place. Every lost item. One chance to reunite.Building a smarter way to report, track, and recover lost belongings. 🔍🤝",
     image: lost,
@@ -33,7 +22,7 @@ export const projects = [
     demo:"localhost/lost-found/"
   },
   {
-    id: 4,
+    id: 3,
     title: "Online Quiz System",
     description:"Empowering education through interactive quizzes.",
     image:quiz,
