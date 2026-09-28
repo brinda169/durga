@@ -51,17 +51,17 @@ About Me
     <div className="stats">
 
   <div>
-    <h2>10+</h2>
+    <h2>3</h2>
     <h1>Projects</h1>
   </div>
 
   <div>
-    <h2>5+</h2>
+    <h2>4</h2>
     <h1>Certificates</h1>
   </div>
 
   <div>
-    <h2>2+</h2>
+    <h2>Fresher</h2>
     <h1>Years Learning</h1>
   </div>
 
