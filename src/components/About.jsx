@@ -43,9 +43,6 @@ About Me
           </div>
         </div>
 
-        <a href="/resume.png" download className="resume-btn">
-          Download Resume
-        </a>
       </div>
 
     <div className="stats">

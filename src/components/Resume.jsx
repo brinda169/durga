@@ -9,13 +9,13 @@ function Resume() {
 
         <div className="resume-container">
       <img
-        src="/resume.png"
+        src="/Resume.png"
         alt="Resume"
         className="resume-image"
       />
     </div>
 
-      <a href="/resume.png" download="resume.png" className="resume-btn">
+      <a href="/resume.png" download="Resume.png" className="resume-btn">
         Download Resume
       </a>
     </section>
