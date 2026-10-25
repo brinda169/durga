@@ -9,7 +9,7 @@ function Resume() {
 
         <div className="resume-container">
       <img
-        src="/CV.pmg"
+        src="/CV.png"
         alt="Resume"
         className="resume-image"
       />

@@ -16,9 +16,7 @@ About Me
 </h2>
 
         <p>
-          Hello! I'm <strong>Brinda.</strong>, a passionate Frontend Developer
-          who enjoys creating modern, responsive, and user-friendly web
-          applications using React, JavaScript, HTML, and CSS.
+          Hello! I'm <strong>Brinda.</strong>,a Computer Science student passionate about technology, software development, and solving real-world problems. I enjoy learning new technologies, building projects, and continuously improving my technical skills. I am eager to explore opportunities.
         </p>
 
         <div className="info-grid">
@@ -48,7 +46,7 @@ About Me
     <div className="stats">
 
   <div>
-    <h2>3</h2>
+    <h2>2</h2>
     <h1>Projects</h1>
   </div>
 
