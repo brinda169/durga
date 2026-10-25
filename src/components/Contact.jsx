@@ -1,39 +1,60 @@
-function Contact(){
+import React from "react";
+import emailjs from "@emailjs/browser";
 
-return(
-<>
-<section id="contact">
+function Contact() {
+  const sendEmail = (event) => {
+    event.preventDefault();
 
-<h2 className="section-title">
-Contact Me
-</h2>
+    const form = event.currentTarget;
 
-<form>
+    emailjs
+      .sendForm(
+        "service_c8q35db",
+        "template_26p8bk8",
+        form,
+        {
+          publicKey: "sUHrNvnTCp5X-5Cog",
+        }
+      )
+      .then(() => {
+        alert("Message sent successfully!");
+        form.reset();
+      })
+      .catch((error) => {
+        console.error("EmailJS error:", error);
+        alert("Message failed to send. Please try again.");
+      });
+  };
 
-<input
-type="text"
-placeholder="Name"
-/>
+  return (
+    <section id="contact">
+      <h2 className="section-title">Contact Me</h2>
 
-<input
-type="email"
-placeholder="Email"
-/>
+      <form id="contact-form" onSubmit={sendEmail}>
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+        />
 
-<textarea
-placeholder="Message"
-/>
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
 
-<button>
-Send
-</button>
+        <textarea
+          name="message"
+          placeholder="Message"
+          required
+        />
 
-</form>
-
-</section>
-
-</>);
-
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  );
 }
 
 export default Contact;
