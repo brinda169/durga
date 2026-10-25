@@ -25,7 +25,7 @@ function Navbar() {
 <Link to="/skills" onClick={closeMenu}>Skills</Link>
 <Link to="/projects" onClick={closeMenu}>Projects</Link>
 <Link to="/resume" onClick={closeMenu}>Resume</Link>
-<Link to="/contact" onClick={closeMenu}>Contact</Link>  
+<Link to="/#contact" onClick={closeMenu}>Contact</Link>  
       </div>
 
       <div className="nav-actions">
